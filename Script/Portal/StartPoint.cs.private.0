@@ -1,0 +1,33 @@
+using UnityEngine;
+
+public class StartPoint : MonoBehaviour
+{
+    private kwplayer kw;
+    private SoundManager sound;
+    private new CameraManager camera;
+
+    public string StartScene;
+
+
+    void Awake()
+    {
+        kw = FindAnyObjectByType<kwplayer>();
+        sound = FindAnyObjectByType<SoundManager>();
+        camera = FindAnyObjectByType<CameraManager>();
+
+        if (StartScene == sound.currentScene)
+        {
+            kw.transform.position = this.transform.position;
+            camera.cineCamera.ForceCameraPosition(this.transform.position, Quaternion.identity);
+        }
+    }
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+
+    }
+}
