@@ -55,6 +55,7 @@ https://youtu.be/MVRZETmqB20
 📦 다운로드
 
 🎮 게임 빌드 파일: https://drive.google.com/file/d/1-Q4d3\_zR4bYAzlPxFdmUCNmacRYM6sqh/view
+(접속이 안 된다면 새 창에서 접속 바랍니다.)
 
 
 
